@@ -2,9 +2,9 @@
 
 Chym scripts to create input river networks for coupled CHyM.
 Example here is for the joint Mediterranean and Black Sea basins.
-The dataset used is the Hydrosheds and GLCC.
+The dataset used is the Hydrosheds, HydroBasins and GLCC.
 
-The Hydorsheds data can be obtained from:
+The Hydorshedsi/HydroBasins data can be obtained from:
 
 https://www.hydrosheds.org/
 
