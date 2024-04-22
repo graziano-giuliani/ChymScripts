@@ -4,7 +4,7 @@ Chym scripts to create input river networks for coupled CHyM.
 Example here is for the joint Mediterranean and Black Sea basins.
 The dataset used is the Hydrosheds, HydroBasins and GLCC.
 
-The Hydorshedsi/HydroBasins data can be obtained from:
+The Hydorsheds and HydroBasins data can be obtained from:
 
 https://www.hydrosheds.org/
 
@@ -18,6 +18,14 @@ Tools used are:
 * NCO tools (https://nco.sourceforge.net/)
 * CHyM model source code (https://github.com/ICTP/CHyM)
 * original python scripts.
+
+In the below, the target is to obtain a (0.06 x 0.06) regular latitude
+longitude resolution gridded dataset over the joint Mediterranean and Black
+Sea basins, with extent from upper left corner point [-5.79,55.89] in
+lon, lat coordinates in degrees, to the bottom right corner point with
+coordinates [46.29,28.23] again in lon,lat in degrees.
+
+The procedure followed is:
 
 1) merge EU and AF hydrosheds DEM datasets at 3s over the MED. This step must
 be performed if your domain area extends over multiple source tiles.
